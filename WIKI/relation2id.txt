@@ -1,0 +1,24 @@
+capital of	0
+located in the administrative territorial entity	1
+title of chess person	2
+IMA status and/or rank	3
+academic degree	4
+twinned administrative body	5
+country	6
+head of government	7
+spouse	8
+member of	9
+employer	10
+member of political party	11
+country of citizenship	12
+heritage designation	13
+position held	14
+instance of	15
+winner	16
+award received	17
+contains the administrative territorial entity	18
+residence	19
+nominated for	20
+significant event	21
+member of sports team	22
+educated at	23
