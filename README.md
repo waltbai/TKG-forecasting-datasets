@@ -9,8 +9,8 @@ Commonly used datasets for TKG forecasting
 In the entity/relation2id files, each line consists of an entity/relation name and corresponding ID, separated by a TAB:
 
 ```text
-name1\tID1
-name2\tID2
+Name1\tID1
+Name2\tID2
 ...
 ```
 
@@ -19,8 +19,8 @@ name2\tID2
 In the train/valid/test fact files, each line consists of a quadruple (subject, relation, object, timestamp), separated by a TAB:
 
 ```text
-s1\tr1\to1\tt1
-s2\tr2\to2\tt2
+S1\tR1\tO1\tT1
+S2\tR2\tO2\tT2
 ...
 ```
 
@@ -82,3 +82,119 @@ Entities without names are mapped to its QID.
 
 - Brackets ("<>") are removed.
 - Underline ("_") are replaced by space (" ").
+
+## Citation
+
+In previous papers, the datasets are cited as follows:
+
+```text
+# ICEWS14
+@inproceedings{li-etal-2021-temporal,
+    author = {Li, Zixuan and Jin, Xiaolong and Li, Wei and Guan, Saiping and Guo, Jiafeng and Shen, Huawei and Wang, Yuanzhuo and Cheng, Xueqi},
+    title = {Temporal Knowledge Graph Reasoning Based on Evolutional Representation Learning},
+    year = {2021},
+    isbn = {9781450380379},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3404835.3462963},
+    doi = {10.1145/3404835.3462963},
+    booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    pages = {408–417},
+    numpages = {10},
+    keywords = {evolutional representation learning, graph convolution network, temporal knowledge graph},
+    location = {Virtual Event, Canada},
+    series = {SIGIR '21}
+}
+
+# ICEWS05-15
+@inproceedings{li-etal-2021-temporal,
+    author = {Li, Zixuan and Jin, Xiaolong and Li, Wei and Guan, Saiping and Guo, Jiafeng and Shen, Huawei and Wang, Yuanzhuo and Cheng, Xueqi},
+    title = {Temporal Knowledge Graph Reasoning Based on Evolutional Representation Learning},
+    year = {2021},
+    isbn = {9781450380379},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3404835.3462963},
+    doi = {10.1145/3404835.3462963},
+    booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    pages = {408–417},
+    numpages = {10},
+    keywords = {evolutional representation learning, graph convolution network, temporal knowledge graph},
+    location = {Virtual Event, Canada},
+    series = {SIGIR '21}
+}
+
+# ICEWS18
+@inproceedings{jin-etal-2020-recurrent,
+    title = "Recurrent Event Network: Autoregressive Structure Inferenceover Temporal Knowledge Graphs",
+    author = "Jin, Woojeong  and
+      Qu, Meng  and
+      Jin, Xisen  and
+      Ren, Xiang",
+    editor = "Webber, Bonnie  and
+      Cohn, Trevor  and
+      He, Yulan  and
+      Liu, Yang",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.541/",
+    doi = "10.18653/v1/2020.emnlp-main.541",
+    pages = "6669--6683",
+}
+
+# GDELT
+@inproceedings{jin-etal-2020-recurrent,
+    title = "Recurrent Event Network: Autoregressive Structure Inferenceover Temporal Knowledge Graphs",
+    author = "Jin, Woojeong  and
+      Qu, Meng  and
+      Jin, Xisen  and
+      Ren, Xiang",
+    editor = "Webber, Bonnie  and
+      Cohn, Trevor  and
+      He, Yulan  and
+      Liu, Yang",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.541/",
+    doi = "10.18653/v1/2020.emnlp-main.541",
+    pages = "6669--6683",
+}
+
+# WIKI
+@inproceedings{leblay-chekol-2018-deriving,
+    author = {Leblay, Julien and Chekol, Melisachew Wudage},
+    title = {Deriving Validity Time in Knowledge Graph},
+    year = {2018},
+    isbn = {9781450356404},
+    publisher = {International World Wide Web Conferences Steering Committee},
+    address = {Republic and Canton of Geneva, CHE},
+    url = {https://doi.org/10.1145/3184558.3191639},
+    doi = {10.1145/3184558.3191639},
+    booktitle = {Companion Proceedings of the The Web Conference 2018},
+    pages = {1771–1776},
+    numpages = {6},
+    keywords = {factorization machines, temporal knowledge graph},
+    location = {Lyon, France},
+    series = {WWW '18}
+}
+
+# YAGO
+@inproceedings{mahdisoltani-etal-2013-yago3,
+    TITLE = {{YAGO3: A Knowledge Base from Multilingual Wikipedias}},
+    AUTHOR = {Mahdisoltani, Farzaneh and Biega, Joanna and Suchanek, Fabian M.},
+    URL = {https://imt.hal.science/hal-01699874},
+    BOOKTITLE = {{CIDR}},
+    ADDRESS = {Asilomar, United States},
+    YEAR = {2013},
+    MONTH = Jan,
+    PDF = {https://imt.hal.science/hal-01699874v1/file/cidr2015.pdf},
+    HAL_ID = {hal-01699874},
+    HAL_VERSION = {v1},
+}
+```
