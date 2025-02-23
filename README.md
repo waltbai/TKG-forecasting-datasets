@@ -6,7 +6,23 @@ Commonly used datasets for TKG forecasting
 
 ### entity2id & relation2id
 
+In the entity/relation2id files, each line consists of an entity/relation name and corresponding ID, separated by a TAB:
+
+```text
+name1\tID1
+name2\tID2
+...
+```
+
 ### facts
+
+In the train/valid/test fact files, each line consists of a quadruple (subject, relation, object, timestamp), separated by a TAB:
+
+```text
+s1\tr1\to1\tt1
+s2\tr2\to2\tt2
+...
+```
 
 ## Directories
 
@@ -56,7 +72,9 @@ The process code refer to `tools/dataset_converter.py`
 
 ### WIKI
 
-- WikiIDs are mapped to actual names, mostly via Wikidata query service. Some IDs failed to be automatically mapped (mostly caused by redirections) are manually mapped. Entities without names are mapped to its QID.
+- WikiIDs are mapped to actual names, mostly via Wikidata query service.  
+Some IDs failed to be automatically mapped (mostly caused by redirections) are manually mapped.  
+Entities without names are mapped to its QID.
 - The 5-th column is removed.
 - entity2id and relation2id sorted by id.
 
