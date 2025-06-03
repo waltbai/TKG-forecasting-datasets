@@ -1,6 +1,6 @@
 # TKG-forecasting-datasets
 
-Commonly used datasets for TKG forecasting
+This repo preprocess commonly used datasets for TKG forecasting to convert them into unified format.
 
 ## Data format
 
